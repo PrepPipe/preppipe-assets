@@ -13,6 +13,8 @@ imagepack:
     yamlpath: "{srcpath}/A0-考拉Koala/P6-单位大门/config.yml"
   A0P7:
     yamlpath: "{srcpath}/A0-考拉Koala/P7-公园/config.yml"
+  A0P8:
+    yamlpath: "{srcpath}/A0-考拉Koala/P8-厨房/config.yml"
   A0P8B:
     yamlpath: "{srcpath}/A0-考拉Koala/P8B-厨房2/config.yml"
   A0P9:
@@ -27,6 +29,22 @@ imagepack:
     yamlpath: "{srcpath}/A0-考拉Koala/P13-阅览室/config.yml"
   A0P14:
     yamlpath: "{srcpath}/A0-考拉Koala/P14-公交站台/config.yml"
+  A0P15:
+    yamlpath: "{srcpath}/A0-考拉Koala/P15-大卧室/config.yml"
+  A0P16:
+    yamlpath: "{srcpath}/A0-考拉Koala/P16-卫生间/config.yml"
+  A0P17:
+    yamlpath: "{srcpath}/A0-考拉Koala/P17-会议室/config.yml"
+  A0P18:
+    yamlpath: "{srcpath}/A0-考拉Koala/P18-登山步道/config.yml"
+  A0P19:
+    yamlpath: "{srcpath}/A0-考拉Koala/P19-湖边/config.yml"
+  A0P20:
+    yamlpath: "{srcpath}/A0-考拉Koala/P20-林间小道/config.yml"
+  A0P21:
+    yamlpath: "{srcpath}/A0-考拉Koala/P21-天空/config.yml"
+  A0P22:
+    yamlpath: "{srcpath}/A0-考拉Koala/P22-林荫道/config.yml"
   A0T0:
     yamlpath: "{srcpath}/A0-考拉Koala/T0-小型室内/config.yml"
   A0T1:

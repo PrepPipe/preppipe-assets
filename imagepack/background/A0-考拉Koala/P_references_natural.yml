@@ -1,0 +1,18 @@
+kind: BACKGROUND
+composites:
+  L0:
+    en: "Daytime"
+    zh_cn: "白天"
+    zh_hk: "白天"
+  L1:
+    en: "Evening"
+    zh_cn: "傍晚"
+    zh_hk: "傍晚"
+  L2:
+    en: "Night"
+    zh_cn: "夜晚"
+    zh_hk: "夜晚"
+  L3:
+    en: "Morning"
+    zh_cn: "清晨"
+    zh_hk: "清晨"

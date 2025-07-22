@@ -1,0 +1,10 @@
+kind: BACKGROUND
+composites:
+  L0:
+    en: "LightsOn"
+    zh_cn: "开灯"
+    zh_hk: "開燈"
+  L1:
+    en: "LightsOff"
+    zh_cn: "关灯"
+    zh_hk: "關燈"

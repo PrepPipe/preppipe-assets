@@ -1,0 +1,5 @@
+include: "../P_references_natural.yml"
+reference:
+  en: "LakeShore"
+  zh_cn: "湖边"
+  zh_hk: "湖邊"

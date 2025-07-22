@@ -1,0 +1,5 @@
+include: "../P_references_natural.yml"
+reference:
+  en: "Avenue"
+  zh_cn: "林荫道"
+  zh_hk: "林蔭道"

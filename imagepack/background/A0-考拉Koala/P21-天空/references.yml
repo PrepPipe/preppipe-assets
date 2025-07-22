@@ -1,0 +1,5 @@
+include: "../P_references_natural.yml"
+reference:
+  en: "Sky"
+  zh_cn: "天空"
+  zh_hk: "天空"

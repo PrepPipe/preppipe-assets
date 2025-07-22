@@ -1,0 +1,5 @@
+include: "../P_references_isolatedspace.yml"
+reference:
+  en: "Washroom"
+  zh_cn: "卫生间"
+  zh_hk: "洗手間"

@@ -1,0 +1,5 @@
+include: "../P_references_common.yml"
+reference:
+  en: "BedroomLarge"
+  zh_cn: "大卧室"
+  zh_hk: "大臥室"
