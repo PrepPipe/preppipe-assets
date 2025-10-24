@@ -3,3 +3,8 @@ reference:
   en: "BedroomSmall"
   zh_cn: "小卧室"
   zh_hk: "小臥室"
+
+description:
+  en: "Small bedroom with a single bed."
+  zh_cn: "配单人床的小卧室。"
+  zh_hk: "配單人床的小臥室。"

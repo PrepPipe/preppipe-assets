@@ -3,3 +3,8 @@ reference:
   en: "Exterior"
   zh_cn: "室外"
   zh_hk: "室外"
+
+description:
+  en: "A generic outdoor setting, suitable as a placeholder. You can attach image or text to the screen on the wall."
+  zh_cn: "适用于室外空间的通用背景，可作为占位背景。您可以给墙上的屏幕放上图片或文本。"
+  zh_hk: "適用於室外空間的通用背景，可作為佔位背景。您可以給牆上的屏幕放上圖片或文本。"

@@ -13,3 +13,8 @@ masks:
     zh_cn: "外套内侧颜色"
     zh_hk: "外套內側顏色"
   - CHARACTER_COLOR_CUFF # M7-袖口
+
+description:
+  en: High-school-age girl with long hair. No name assigned because of lack of eye variants.
+  zh_cn: 高中长发女生形象。由于没有眼部差分，暂不起名。
+  zh_hk: 高中長髮女生形象。由於沒有眼部差分，暫不起名。

@@ -3,3 +3,8 @@ reference:
   en: "CommunityPath"
   zh_cn: "小区步道"
   zh_hk: "小區步道"
+
+description:
+  en: "A walking path in a residential community. Consider blurring the background if the plants are rendered too sharp."
+  zh_cn: "住宅小区内的步道。如果觉得植物边缘过于锐利，请考虑模糊背景。"
+  zh_hk: "住宅小區內的步道。如果覺得植物邊緣過於銳利，請考慮模糊背景。"

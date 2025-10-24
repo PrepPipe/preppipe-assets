@@ -3,3 +3,8 @@ reference:
   en: "Interior-Public"
   zh_cn: "大型室内"
   zh_hk: "大型室內"
+
+description:
+  en: "A generic indoor setting for public spaces, suitable as a placeholder. You can attach image or text to the screen on the wall."
+  zh_cn: "适用于公共空间的通用室内场景，可作为占位背景。您可以给墙上的屏幕放上图片或文本。"
+  zh_hk: "適用於公共空間的通用室內場景，可作為佔位背景。您可以給牆上的屏幕放上圖片或文本。"

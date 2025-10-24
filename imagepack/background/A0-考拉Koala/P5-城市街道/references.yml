@@ -3,3 +3,8 @@ reference:
   en: "StreetView"
   zh_cn: "城市街道"
   zh_hk: "城市街道"
+
+description:
+  en: "Street view of an urban area. Logos from collaborators and supporters embedded."
+  zh_cn: "城市街景。部分位置嵌入了合作伙伴与支持方的商标。"
+  zh_hk: "城市街景。部分位置嵌入了合作夥伴與支持方的商標。"

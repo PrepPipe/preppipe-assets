@@ -3,3 +3,8 @@ reference:
   en: "Park"
   zh_cn: "公园"
   zh_hk: "公園"
+
+description:
+  en: "Generic park setting with trees and benches."
+  zh_cn: "通用公园背景，有树有长椅。"
+  zh_hk: "通用公園背景，有樹有長椅。"

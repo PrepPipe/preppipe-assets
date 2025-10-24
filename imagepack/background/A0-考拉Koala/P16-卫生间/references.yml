@@ -3,3 +3,8 @@ reference:
   en: "Washroom"
   zh_cn: "卫生间"
   zh_hk: "洗手間"
+
+description:
+  en: "Washroom with a shower cubicle."
+  zh_cn: "带淋浴间的卫生间。"
+  zh_hk: "帶淋浴間的洗手間。"

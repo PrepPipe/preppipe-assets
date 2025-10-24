@@ -3,3 +3,8 @@ reference:
   en: "SchoolHallway"
   zh_cn: "学校走廊"
   zh_hk: "學校走廊"
+
+description:
+  en: "Generic hallway for any school level with a staircase at the end."
+  zh_cn: "通用学校走廊，尽头有楼梯。"
+  zh_hk: "通用學校走廊，盡頭有樓梯。"

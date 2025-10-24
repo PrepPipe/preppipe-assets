@@ -8,3 +8,8 @@ masks:
   - en: "ScarfDecorationColor" # M4-围巾装饰
     zh_cn: "围巾装饰颜色"
     zh_hk: "圍巾裝飾顏色"
+
+description:
+  en: High-school-age girl with short hair. No name assigned because of lack of eye variants.
+  zh_cn: 高中短发女生形象。由于没有眼部差分，暂不起名。
+  zh_hk: 高中短髮女生形象。由於沒有眼部差分，暫不起名。
