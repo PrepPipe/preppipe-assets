@@ -1,4 +1,6 @@
 imagepack:
+  A1T1:
+    yamlpath: "{srcpath}/A1-Aixuanx/T1-蓝/config.yml"
   A0DT1:
     yamlpath: "{srcpath}/A0-秋襟/DT1-短发女生/config.yml"
   A0DT2:
