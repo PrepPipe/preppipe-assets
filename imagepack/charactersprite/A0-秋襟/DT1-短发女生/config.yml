@@ -68,5 +68,6 @@
       B0: L1L2L3L4L5L6L7L8L9L10
 元数据:
     author: "秋襟"
+    license: "cc0"
     overview_scale: 0.2
     diff_croprect: [1885, 905, 2685, 1705]
