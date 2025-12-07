@@ -8,3 +8,7 @@ description:
   en: "Generic kitchen which is connected to a dining area."
   zh_cn: "通用厨房背景，直接连着就餐区域。"
   zh_hk: "通用廚房背景，直接連著就餐區域。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_HOME

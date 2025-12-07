@@ -8,3 +8,7 @@ description:
   en: "Chinese style kitchen, should have a glass door behind the view point isolating it from the living room."
   zh_cn: "中式厨房，视点后方应有玻璃门将其与客厅隔开。"
   zh_hk: "中式廚房，視點後方應有玻璃門將其與客廳隔開。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_HOME

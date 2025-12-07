@@ -8,3 +8,7 @@ description:
   en: "Large bedroom with a double bed and a television."
   zh_cn: "配双人床和电视机的大卧室。"
   zh_hk: "配雙人床和電視機的大臥室。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_HOME

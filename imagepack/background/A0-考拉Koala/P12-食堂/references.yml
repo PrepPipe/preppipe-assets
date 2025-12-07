@@ -8,3 +8,8 @@ description:
   en: "Dining hall commonly found in schools or workplaces."
   zh_cn: "常见于学校或工作场所的食堂。"
   zh_hk: "常見於學校或工作場所的食堂。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_PUBLIC_INTERIOR
+  - BACKGROUND_SCHOOL

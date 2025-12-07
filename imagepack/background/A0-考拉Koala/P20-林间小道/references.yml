@@ -8,3 +8,7 @@ description:
   en: "Pathway through a dense forest."
   zh_cn: "穿过茂密森林的小道。"
   zh_hk: "穿過茂密森林的小道。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_NATURAL

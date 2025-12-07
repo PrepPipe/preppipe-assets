@@ -8,3 +8,7 @@ description:
   en: "Representing the entrance to an organization, government building, or other facilities with walls."
   zh_cn: "可用于表示政府、单位、小区等封闭区域的大门口。"
   zh_hk: "可用於表示政府、單位、小區等封閉區域的大門口。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_URBAN

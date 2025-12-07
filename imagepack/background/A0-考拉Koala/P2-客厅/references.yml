@@ -8,3 +8,7 @@ description:
   en: "Modern living room with an open balcony."
   zh_cn: "现代风格客厅，带开放式阳台。"
   zh_hk: "現代風格客廳，帶開放式陽台。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_HOME

@@ -8,3 +8,7 @@ description:
   en: "A standard bus stop in the urban area (between driving lanes and the bicycle lane)."
   zh_cn: "市区的标准公交站台（位于机动车道和非机动车道之间）。"
   zh_hk: "市區的標準公車站台（位於機動車道和非機動車道之間）。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_URBAN

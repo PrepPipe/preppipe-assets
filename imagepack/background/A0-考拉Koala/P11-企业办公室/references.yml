@@ -8,3 +8,7 @@ description:
   en: "Office space with medium-high density layout."
   zh_cn: "布局中高密度的办公空间。"
   zh_hk: "佈局中高密度的辦公空間。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_PUBLIC_INTERIOR

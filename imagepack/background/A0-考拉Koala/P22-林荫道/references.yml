@@ -8,3 +8,8 @@ description:
   en: "A tree-lined avenue, useful for parks or between buildings in enclosed areas like universities."
   zh_cn: "林荫大道，部分公园或（大学等封闭区域的）建筑群之间可能用到。"
   zh_hk: "林蔭大道，部分公園或（大學等封閉區域的）建築群之間可能用到。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_NATURAL
+  - BACKGROUND_URBAN

@@ -8,3 +8,7 @@ description:
   en: "Teacher's office for middle or high school with a blackboard."
   zh_cn: "带黑板的中学教师办公室场景。"
   zh_hk: "帶黑板的中學教師辦公室場景。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_SCHOOL

@@ -8,3 +8,7 @@ description:
   en: "Meeting room with a projector-screen setup and a long conference table."
   zh_cn: "带投影仪-屏幕组合和长桌的会议室。"
   zh_hk: "帶投影儀-屏幕組合和長桌的會議室。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_PUBLIC_INTERIOR

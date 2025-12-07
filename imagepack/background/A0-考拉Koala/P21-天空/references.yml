@@ -8,3 +8,7 @@ description:
   en: "Open sky with clouds. Useful to represent thinking or dreaming."
   zh_cn: "开阔的天空和云朵。可用于表现思考或梦想。"
   zh_hk: "開闊的天空和雲朵。可用於表現思考或夢想。"
+
+preset_tags:
+  - BACKGROUND_SPECIAL
+  - BACKGROUND_NATURAL

@@ -8,3 +8,7 @@ description:
   en: "Lakeside scenery with other cities visible across the water."
   zh_cn: "湖边风景，湖对岸可见其他城市。"
   zh_hk: "湖邊風景，湖對岸可見其他城市。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_NATURAL

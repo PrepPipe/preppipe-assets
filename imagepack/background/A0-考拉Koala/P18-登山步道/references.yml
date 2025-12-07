@@ -8,3 +8,7 @@ description:
   en: "Walking path for hiking up a mountain, looking downwards."
   zh_cn: "偏下山视角的登山步道。"
   zh_hk: "偏下山視角的登山步道。"
+
+preset_tags:
+  - BACKGROUND_OUTDOOR
+  - BACKGROUND_NATURAL

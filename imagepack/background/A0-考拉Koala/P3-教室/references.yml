@@ -8,3 +8,7 @@ description:
   en: "Middle or high school classroom with a blackboard."
   zh_cn: "带黑板的中学教室。"
   zh_hk: "帶黑板的中學教室。"
+
+preset_tags:
+  - BACKGROUND_INDOOR
+  - BACKGROUND_SCHOOL
