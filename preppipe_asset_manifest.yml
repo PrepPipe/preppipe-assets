@@ -3,3 +3,4 @@ subdirs:
   - imagepack/background/backgrounds.yml
   - thirdparty/thirdparty.yml
   - gui/gui.yml
+  - game-gui-generator/fgui-published-assets/fgui-published-assets.yml
