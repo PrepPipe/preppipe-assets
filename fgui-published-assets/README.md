@@ -1,0 +1,1 @@
+此目录内存放资源为，FairyGUI编辑器发布的UI资源包。资源包不可在FairyGUI编辑器内打开和编辑，只能由语涵编辑器的“fgui资源转换”功能转为Ren'Py界面脚本，也可导入包含FairyGUI运行库的Unity项目。

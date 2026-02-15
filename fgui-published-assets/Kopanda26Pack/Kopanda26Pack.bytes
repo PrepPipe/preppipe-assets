@@ -1,0 +1,885 @@
+bmp53j.xml|663|<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n3_cwkh" name="label_bg" src="ulufn" xy="0,66"/>
+    <image id="n2_cwkh" name="history_title" src="bmp53h" xy="77,59"/>
+    <image id="n6_bmp5" name="history_pannel" src="bmp53i" xy="366,255"/>
+    <list id="n7_bmp5" name="history_list" xy="420,286" size="1100,560" overflow="scroll" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="10" defaultItem="ui://r4wy0bsrbmp53k" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ewvv" name="back_button" src="e28t2j" xy="1800,0"/>
+  </displayList>
+</component>bmp53k.xml|687|<component size="1100,223">
+  <displayList>
+    <graph id="n3_m7yc" name="bg" xy="0,221" size="1100,2" type="rect" lineSize="0" fillColor="#ff999999"/>
+    <text id="n1_bmp5" name="who" xy="0,0" size="333,54" font="SourceHanSansLite" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#666666" shadowOffset="3,3" text="Name"/>
+    <text id="n2_bmp5" name="what" xy="23,54" size="1058,169" font="SourceHanSansLite" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#8e4fd0" shadowOffset="3,3" text="the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog"/>
+  </displayList>
+</component>bmp53n.xml|701|<component size="1920,1080" scroll="both">
+  <displayList>
+    <image id="n0_bmp5" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n1_bmp5" name="label_bg" src="ulufn" xy="0,66"/>
+    <image id="n2_bmp5" name="label" src="bmp53m" xy="77,59"/>
+    <list id="n5_bmp5" name="gallery_button_list" xy="211,332" size="1504,578" layout="flow_hz" overflow="scroll" scroll="both" scrollBarFlags="128" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="38" colGap="60" defaultItem="ui://r4wy0bsrbmp53o">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_bmp5" name="back_button" src="e28t2j" xy="1800,0"/>
+  </displayList>
+</component>bmp53o.xml|297|<component size="456,270" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_bmp5" src="bmp53l" name="n0" xy="0,0">
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>c7tw58.xml|334|<component size="20,12" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_c7tw" name="n0" src="c7tw57" xy="0,0" size="20,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>c7tw59.xml|419|<component size="200,12" extention="ScrollBar">
+  <ScrollBar/>
+  <displayList>
+    <image id="n0_c7tw" src="c7tw56" name="n0" xy="0,0" size="200,12">
+      <relation target="" sidePair="width"/>
+    </image>
+    <graph id="n1_c7tw" name="bar" xy="0,0" size="200,12">
+      <relation target="" sidePair="width"/>
+    </graph>
+    <component id="n2_c7tw" name="grip" xy="20,0" src="c7tw58"/>
+  </displayList>
+</component>cwkh3g.xml|1308|<component size="1206,192" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,insensitive" selected="0"/>
+  <displayList>
+    <image id="n0_cwkh" name="n0" src="cwkh3f" xy="0,0">
+      <gearDisplay controller="button" pages="0,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_cwkh" name="n1" src="cwkh3e" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_cwkh" name="n2" src="cwkh3e" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_cwkh" name="n3" src="cwkh3e" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n4_cwkh" name="screen_shot" xy="66,30" size="228,123" type="rect" lineSize="0" fillColor="#00000000"/>
+    <loader id="n6_cwkh" name="icon" xy="66,30" size="228,123"/>
+    <text id="n5_cwkh" name="title" xy="335,61" size="458,49" font="SourceHanSansLite" fontSize="36" color="#cccccc" autoSize="none" shadowColor="#6633cc" shadowOffset="3,3"/>
+  </displayList>
+  <Button/>
+</component>e28t2a.xml|412|<component size="1920,1080">
+  <displayList>
+    <text id="n1_e28t" name="caption" xy="0,185" size="1920,84" font="SourceHanSansLite" fontSize="53" align="center" vAlign="middle" autoSize="none" text="标题"/>
+    <list id="n3_e28t" name="choice_list" xy="480,331" size="960,333" overflow="scroll" lineGap="66" defaultItem="ui://r4wy0bsre28t2f">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>e28t2f.xml|1260|<component size="960,90" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_e28t" name="n0" src="e28t2c" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_e28t" name="n1" src="e28t2d" xy="3,3">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_e28t" name="n2" src="e28t2b" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_e28t" name="n3" src="e28t2d" xy="3,3">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_e28t" name="title" xy="0,17" size="960,54" font="SourceHanSansLite" fontSize="40" color="#666666" align="center" vAlign="middle" autoSize="height" singleLine="true" text="选项文字">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.8"/>
+</component>e28t2j.xml|770|<component size="120,216" extention="Button" customData="Return()">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_e28t" name="n0" src="e28t2i" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_e28t" name="n1" src="e28t2g" xy="0,2">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_e28t" name="n2" src="e28t2h" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>e28t2m.xml|557|<component size="1920,1080">
+  <displayList>
+    <image id="n0_e28t" name="textbox" src="e28t2k" xy="0,834"/>
+    <image id="n2_e28t" name="namebox" src="e28t2l" xy="0,774"/>
+    <text id="n3_e28t" name="who" xy="178,776" size="333,54" font="SourceHanSansLite" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#333333" shadowOffset="3,3"/>
+    <text id="n4_e28t" name="what" xy="265,850" size="1390,162" font="SourceHanSansLite" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#8e4fd0" shadowOffset="3,3"/>
+  </displayList>
+</component>ewvv2p.xml|655|<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="ewvv2o" xy="0,0"/>
+    <component id="n1_ewvv" name="back_button" src="ewvv35" xy="750,734" customData="MainMenu()"/>
+    <component id="n2_ewvv" name="close_button" src="ewvv36" xy="1265,215" customData="Return()"/>
+    <component id="n3_ewvv" name="n3" src="ewvv37" xy="750,588" customData="ShowMenu(&quot;preferences&quot;)"/>
+    <component id="n4_ewvv" name="n4" src="ewvv38" xy="750,438" customData="ShowMenu(&quot;load&quot;)"/>
+    <component id="n5_ewvv" name="n5" src="ewvv39" xy="750,286" customData="ShowMenu(&quot;save&quot;)"/>
+  </displayList>
+</component>ewvv35.xml|748|<component size="420,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ewvv" name="n0" src="ewvv2s" xy="43,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ewvv" name="n1" src="ewvv2q" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ewvv" name="n2" src="ewvv2r" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ewvv36.xml|695|<component size="96,102" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_ewvv" src="ewvv2v" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n1_ewvv" src="ewvv2t" name="n1" xy="0,3">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2_ewvv" src="ewvv2u" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>ewvv37.xml|749|<component size="420,47" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ewvv" name="n0" src="ewvv2y" xy="122,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ewvv" name="n1" src="ewvv2w" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ewvv" name="n2" src="ewvv2x" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ewvv38.xml|748|<component size="420,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ewvv" name="n0" src="ewvv31" xy="75,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ewvv" name="n1" src="ewvv2z" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ewvv" name="n2" src="ewvv30" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ewvv39.xml|748|<component size="420,47" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ewvv" name="n0" src="ewvv34" xy="80,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ewvv" name="n1" src="ewvv32" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ewvv" name="n2" src="ewvv33" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ewvv3a.xml|602|<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n3_cwkh" name="label_bg" src="ulufn" xy="0,66"/>
+    <image id="n2_cwkh" name="save_title" src="cwkh3d" xy="77,59"/>
+    <list id="n5_cwkh" name="save_slot_list" xy="357,216" size="1266,711" overflow="scroll" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="25" defaultItem="ui://r4wy0bsrcwkh3g" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ewvv" name="back_button" src="e28t2j" xy="1800,0"/>
+  </displayList>
+</component>ewvv3b.xml|594|<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n2_cwkh" name="label_bg" src="ulufn" xy="0,66"/>
+    <image id="n3_cwkh" name="n3" src="cwkh3c" xy="77,59"/>
+    <list id="n4_cwkh" name="save_slot_list" xy="357,216" size="1266,711" overflow="scroll" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="25" defaultItem="ui://r4wy0bsrcwkh3g" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ewvv" name="back_button" src="e28t2j" xy="1800,0"/>
+  </displayList>
+</component>g0f854.xml|334|<component size="12,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_g0f8" name="n0" src="g0f853" xy="0,0" size="12,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>g0f855.xml|435|<component size="12,200" extention="ScrollBar">
+  <displayList>
+    <image id="n0_g0f8" name="n0" src="g0f852" xy="0,0" size="12,200">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <graph id="n1_g0f8" name="bar" xy="0,0" size="12,200">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n2_g0f8" name="grip" src="g0f854" xy="0,20"/>
+  </displayList>
+  <ScrollBar/>
+</component>ktou4l.xml|752|<component size="1920,1080">
+  <displayList>
+    <image id="n0_bmp5" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n1_bmp5" name="label_bg" src="ulufn" xy="0,66"/>
+    <image id="n2_bmp5" name="label" src="lg8i4x" xy="77,59"/>
+    <image id="n6_lg8i" name="button_list_panel" src="bmp53i" xy="201,284" size="1530,601"/>
+    <list id="n5_bmp5" name="musicroom_button_list" xy="211,287" size="1500,578" layout="flow_hz" overflow="scroll" scroll="both" scrollBarFlags="128" lineGap="40" lineItemCount="2" defaultItem="ui://r4wy0bsrktou4n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_bmp5" name="back_button" src="e28t2j" xy="1800,0"/>
+  </displayList>
+</component>ktou4n.xml|887|<component size="750,128" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ktou" name="n0" src="ktou4m" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="left-left"/>
+    </image>
+    <image id="n2_ktou" name="n1" src="ktou4v" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n3_ktou" name="n2" src="ktou4u" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <image id="n4_ktou" name="n3" src="ktou4w" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <text id="n1_ktou" name="title" xy="144,37" size="606,54" font="SourceHanSansLite" fontSize="40" color="#666666" autoSize="none" text="music name"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>lg8i51.xml|747|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="lg8i50" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="lg8i4z" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="lg8i4y" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ll1l28.xml|941|<component size="10,19" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_ll1l" name="n0" xy="0,0" size="10,19" touchable="false" type="rect" lineSize="0" fillColor="#a1f0f0f0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_ll1l" name="n1" xy="0,0" size="10,19" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2_ll1l" name="n2" xy="0,0" size="10,19" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <Button/>
+</component>ll1l29.xml|711|<component size="50,10" extention="Slider">
+  <Slider titleType="value"/>
+  <displayList>
+    <graph id="n0_ll1l" name="n0" xy="0,0" size="50,10" type="rect" lineSize="1" lineColor="#A0A0A0" fillColor="#F0F0F0">
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n1_ll1l" name="bar" xy="5,3" size="40,4" type="rect" lineSize="0" fillColor="#3399FF"/>
+    <text id="n2_ll1l" name="title" xy="0,-5" size="50,16" autoSize="none" align="center" fontSize="12">
+      <relation target="" sidePair="width"/>
+    </text>
+    <component id="n3_ll1l" name="grip" xy="40,-5" src="ll1l28">
+      <relation target="n1_ll1l" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>ndic10.xml|6962|<component size="1920,1080">
+  <controller name="tab_controller" pages="0,audio,1,text,2,screen" selected="0"/>
+  <displayList>
+    <image id="n0_ndic" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n2_ndic" name="n2" src="ulufn" xy="0,40"/>
+    <image id="n1_ndic" name="config_label" src="ndic11" xy="31,35"/>
+    <image id="n3_ndic" name="panel_bg" src="ndic12" xy="223,299"/>
+    <component id="n4_ndic" name="sound_tab" src="ndic1c" xy="222,240">
+      <Button checked="true" controller="tab_controller" page="0"/>
+    </component>
+    <component id="n5_ndic" name="text_tab" src="ndic1d" xy="595,240">
+      <Button controller="tab_controller" page="1"/>
+    </component>
+    <component id="n6_ndic" name="screen_tab" src="ndic1e" xy="967,240">
+      <Button controller="tab_controller" page="2"/>
+    </component>
+    <image id="n8_ndic" name="main_volume_label" src="ndic1j" xy="348,411">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n9_ndic" name="music_volume_label" src="ndic1m" xy="382,530">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n10_ndic" name="sound_volume_label" src="ndic1n" xy="420,650">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n12_ndic" name="n12" src="ndic1l" xy="678,420">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n11_ndic" name="main_volume_slider" src="ndic1t" xy="739,426" customData="Preference(&apos;main volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n13_ndic" name="n13" src="ndic1k" xy="1311,419">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n14_ndic" name="n14" src="ndic1l" xy="678,540">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n15_ndic" name="music_volume_slider" src="ndic1t" xy="739,546" customData="Preference(&apos;music volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n16_ndic" name="n16" src="ndic1k" xy="1311,539">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n17_ndic" name="n17" src="ndic1l" xy="678,660">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n18_ndic" name="sound_volume_slider" src="ndic1t" xy="739,666" customData="Preference(&apos;sound volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="43" max="100"/>
+    </component>
+    <image id="n19_ndic" name="n19" src="ndic1k" xy="1311,659">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n20_e28t" name="back_button" src="e28t2j" xy="1800,0" customData="Return()"/>
+    <image id="n21_u8sl" name="n21" src="u8sl3p" xy="1455,399">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n22_u8sl" name="n22" src="u8sl3t" xy="1455,529">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n23_u8sl" name="n23" src="u8sl3u" xy="1455,659">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n24_u8sl" name="mute_main_button" src="u8sl3v" xy="1386,382" customData="ToggleMute(&apos;main&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <component id="n25_u8sl" name="mute_music_button" src="u8sl3v" xy="1386,512" customData="ToggleMute(&apos;music&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <component id="n26_u8sl" name="mute_sound_button" src="u8sl3v" xy="1386,642" customData="ToggleMute(&apos;sfx&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <image id="n27_u8sl" name="n27" src="u8sl3x" xy="327,530">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n28_u8sl" name="n28" src="u8sl42" xy="424,411">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n29_u8sl" name="n29" src="u8sl43" xy="318,651">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n30_u8sl" name="n30" src="u8sl3y" xy="1322,423">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n31_u8sl" name="n31" src="u8sl41" xy="680,422">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n32_u8sl" name="n32" src="u8sl3y" xy="1322,543">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n33_u8sl" name="n33" src="u8sl41" xy="680,542">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n34_u8sl" name="n34" src="u8sl3z" xy="796,657">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n35_u8sl" name="n35" src="u8sl40" xy="1072,657">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <component id="n36_u8sl" name="text_speed_slider" src="ndic1t" xy="739,426" customData="Preference(&quot;text speed&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n37_u8sl" name="auto_text_speed_slider" src="ndic1t" xy="739,545" customData="Preference(&quot;auto-forward time&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n38_u8sl" name="unread_skip_off_button" src="u8sl3v" xy="738,641" customData="Preference(&quot;skip&quot;, &quot;seen&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </component>
+    <component id="n40_u8sl" name="unread_skip_on_button" src="u8sl3v" xy="1014,641" customData="Preference(&quot;skip&quot;, &quot;all&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </component>
+    <image id="n41_u8sl" name="n41" src="u8sl46" xy="407,411">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <image id="n42_u8sl" name="n42" src="u8sl45" xy="795,417">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <image id="n43_u8sl" name="n43" src="u8sl47" xy="1069,417">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <component id="n44_u8sl" name="full_screen_button" src="u8sl3v" xy="738,402" customData="Preference(&quot;display&quot;, &quot;fullscreen&quot;)">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </component>
+    <component id="n45_u8sl" name="windowed_button" src="u8sl3v" xy="1014,402" customData="Preference(&quot;display&quot;, &quot;window&quot;)">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </component>
+  </displayList>
+</component>ndic1c.xml|760|<component size="360,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ndic" name="n0" src="ndic15" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ndic" name="n1" src="ndic13" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ndic" name="n2" src="ndic14" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>ndic1d.xml|760|<component size="360,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ndic" name="n0" src="ndic1b" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ndic" name="n1" src="ndic19" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ndic" name="n2" src="ndic1a" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>ndic1e.xml|760|<component size="360,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ndic" name="n0" src="ndic18" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ndic" name="n1" src="ndic16" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ndic" name="n2" src="ndic17" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>ndic1s.xml|657|<component size="48,54" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_ndic" src="ndic1r" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n1_ndic" src="ndic1q" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n2_ndic" src="ndic1q" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <image id="n3_ndic" src="ndic1q" name="n3" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+  </displayList>
+</component>ndic1t.xml|360|<component size="540,3" extention="Slider">
+  <displayList>
+    <image id="n0_ndic" name="n0" src="ndic1p" xy="0,0"/>
+    <image id="n1_ndic" name="bar" src="ndic1o" xy="0,0"/>
+    <component id="n2_ndic" name="grip" src="ndic1s" xy="516,-22">
+      <relation target="n1_ndic" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>ndicr.xml|497|<component size="1920,1080">
+  <displayList>
+    <image id="n0_ndic" name="bg" src="ndicq" xy="435,393"/>
+    <text id="n3_ndic" name="message" xy="496,427" size="975,86" font="SourceHanSansLite" fontSize="40" align="center" vAlign="middle" autoSize="none" text="确认消息文本内容"/>
+    <component id="n1_ndic" name="yes_button" src="ndicv" xy="680,562" customData="yes_action"/>
+    <component id="n2_ndic" name="no_button" src="ndicz" xy="1066,562" customData="no_action"/>
+  </displayList>
+</component>ndicv.xml|692|<component size="192,48" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_ndic" src="ndicu" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n1_ndic" src="ndics" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2_ndic" src="ndict" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>ndicz.xml|692|<component size="192,48" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_ndic" src="ndicy" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n1_ndic" src="ndicw" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2_ndic" src="ndicx" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>package.xml|14423|<packageDescription id="r4wy0bsr" name="Kopanda26Pack">
+  <resources>
+    <component id="bmp53k" name="history_item" path="/Components/" size="1100,223"/>
+    <component id="bmp53o" name="gallery_button" path="/Buttons/gallery_button/" size="456,270"/>
+    <component id="c7tw58" name="horizontal_scrollbar_grip" path="/ScrollBars/" size="20,12"/>
+    <component id="cwkh3g" name="save_slot_button" path="/Buttons/save_load/" size="1206,192"/>
+    <component id="e28t2f" name="choice_button" path="/Buttons/choice_button/" size="960,90"/>
+    <component id="e28t2j" name="back_button" path="/Buttons/universal_button/" size="120,216"/>
+    <component id="ewvv35" name="menu_back_button" path="/Buttons/game_menu/" size="420,46"/>
+    <component id="ewvv36" name="menu_close_button" path="/Buttons/game_menu/" size="96,102"/>
+    <component id="ewvv37" name="menu_config_button" path="/Buttons/game_menu/" size="420,47"/>
+    <component id="ewvv38" name="menu_load_button" path="/Buttons/game_menu/" size="420,46"/>
+    <component id="ewvv39" name="menu_save_button" path="/Buttons/game_menu/" size="420,47"/>
+    <component id="g0f854" name="vertical_scrollbar_grip" path="/ScrollBars/" size="12,20"/>
+    <component id="ktou4n" name="musicroom_button" path="/Buttons/musicroom_button/" size="750,128"/>
+    <component id="lg8i51" name="main_menu_button_musicroom" path="/Buttons/main_menu_button/" size="840,84"/>
+    <component id="ll1l28" name="Slider1_grip" path="/Sliders/" size="10,19"/>
+    <component id="ndic1c" name="audio_tab_button" path="/Buttons/preferences_tab_button/" size="360,60"/>
+    <component id="ndic1d" name="text_tab_button" path="/Buttons/preferences_tab_button/" size="360,60"/>
+    <component id="ndic1e" name="screen_tab_button" path="/Buttons/preferences_tab_button/" size="360,60"/>
+    <component id="ndic1s" name="horizontal_slider_grip" path="/Sliders/" size="48,54"/>
+    <component id="ndicv" name="yes_button" path="/Buttons/confirm_button/" size="192,48"/>
+    <component id="ndicz" name="no_button" path="/Buttons/confirm_button/" size="192,48"/>
+    <component id="u8sl3v" name="check_button" path="/Buttons/universal_button/" size="42,48"/>
+    <component id="ulufd" name="main_menu_button_new" path="/Buttons/main_menu_button/" size="840,84"/>
+    <component id="ulufi" name="main_menu_button_load" path="/Buttons/main_menu_button/" size="840,84"/>
+    <component id="ulufj" name="main_menu_button_config" path="/Buttons/main_menu_button/" size="840,84"/>
+    <component id="ulufk" name="main_menu_button_gallery" path="/Buttons/main_menu_button/" size="840,84"/>
+    <component id="ulufl" name="main_menu_button_quit" path="/Buttons/main_menu_button/" size="840,84"/>
+    <image id="bmp53h" name="backlog_label" path="/Images/history/" size="316,94"/>
+    <image id="bmp53i" name="pannel" path="/Images/history/" size="1218,648" scale="9grid" scale9grid="17,17,1146,576"/>
+    <image id="bmp53l" name="gallery_button" path="/Images/gallery/" size="456,270"/>
+    <image id="bmp53m" name="gallery_label" path="/Images/gallery/" size="273,95"/>
+    <image id="c7tw56" name="horizontal_scrollbar_bar" path="/Images/scrollbar/" size="540,12"/>
+    <image id="c7tw57" name="horizontal_scrollbar_thumb" path="/Images/scrollbar/" size="540,12"/>
+    <image id="cwkh3c" name="load_title" path="/Images/save_load_menu/" size="413,66"/>
+    <image id="cwkh3d" name="save_title" path="/Images/save_load_menu/" size="396,64"/>
+    <image id="cwkh3e" name="save_slot_hover" path="/Images/save_load_menu/" size="1206,192"/>
+    <image id="cwkh3f" name="save_slot_normal" path="/Images/save_load_menu/" size="1206,192"/>
+    <image id="e28t2b" name="choice_button_hover" path="/Images/choice_button/" size="960,90"/>
+    <image id="e28t2c" name="choice_button_normal" path="/Images/choice_button/" size="960,90"/>
+    <image id="e28t2d" name="choice_button_selected" path="/Images/choice_button/" size="954,84"/>
+    <image id="e28t2g" name="button_back_down" path="/Images/universal_button/" size="120,212"/>
+    <image id="e28t2h" name="button_back_hover" path="/Images/universal_button/" size="120,216"/>
+    <image id="e28t2i" name="button_back_normal" path="/Images/universal_button/" size="120,216"/>
+    <image id="e28t2k" name="text_box" path="/Images/background/" size="1920,198"/>
+    <image id="e28t2l" name="name_tag" path="/Images/background/" size="630,60"/>
+    <image id="ewvv2o" name="game_menu_background" path="/Images/background/" size="1920,1080"/>
+    <image id="ewvv2q" name="menu_back_button_down" path="/Images/game_menu_button/" size="420,46"/>
+    <image id="ewvv2r" name="menu_back_button_hover" path="/Images/game_menu_button/" size="420,46"/>
+    <image id="ewvv2s" name="menu_back_button_normal" path="/Images/game_menu_button/" size="335,41"/>
+    <image id="ewvv2t" name="menu_close_button_down" path="/Images/game_menu_button/" size="96,96"/>
+    <image id="ewvv2u" name="menu_close_button_hover" path="/Images/game_menu_button/" size="96,102"/>
+    <image id="ewvv2v" name="menu_close_button_normal" path="/Images/game_menu_button/" size="96,102"/>
+    <image id="ewvv2w" name="menu_config_button_down" path="/Images/game_menu_button/" size="420,47"/>
+    <image id="ewvv2x" name="menu_config_button_hover" path="/Images/game_menu_button/" size="420,47"/>
+    <image id="ewvv2y" name="menu_config_button_normal" path="/Images/game_menu_button/" size="177,43"/>
+    <image id="ewvv2z" name="menu_load_button_down" path="/Images/game_menu_button/" size="420,46"/>
+    <image id="ewvv30" name="menu_load_button_hover" path="/Images/game_menu_button/" size="420,46"/>
+    <image id="ewvv31" name="menu_load_button_normal" path="/Images/game_menu_button/" size="275,41"/>
+    <image id="ewvv32" name="menu_save_button_down" path="/Images/game_menu_button/" size="420,47"/>
+    <image id="ewvv33" name="menu_save_button_hover" path="/Images/game_menu_button/" size="420,47"/>
+    <image id="ewvv34" name="menu_save_button_normal" path="/Images/game_menu_button/" size="264,43"/>
+    <image id="g0f852" name="vertical_scrollbar_bar" path="/Images/scrollbar/" size="12,540"/>
+    <image id="g0f853" name="vertical_scrollbar_thumb" path="/Images/scrollbar/" size="12,540"/>
+    <image id="ktou4m" name="play_music_normal" path="/Images/musicroom/" size="128,128"/>
+    <image id="ktou4u" name="play_music_hover" path="/Images/musicroom/" size="128,128"/>
+    <image id="ktou4v" name="play_music_selected" path="/Images/musicroom/" size="128,128"/>
+    <image id="ktou4w" name="play_music_selected_hover" path="/Images/musicroom/" size="128,128"/>
+    <image id="lg8i4x" name="musicroom_label" path="/Images/musicroom/" size="403,74"/>
+    <image id="lg8i4y" name="main_button_musicroom_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="lg8i4z" name="main_button_musicroom_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="lg8i50" name="main_button_musicroom_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ndic11" name="preferences_label" path="/Images/preferences/" size="227,96"/>
+    <image id="ndic12" name="preferences_panel" path="/Images/preferences/" size="1494,649"/>
+    <image id="ndic13" name="tab_audio_down" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic14" name="tab_audio_hover" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic15" name="tab_audio_normal" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic16" name="tab_screen_down" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic17" name="tab_screen_hover" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic18" name="tab_screen_normal" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic19" name="tab_text_down" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic1a" name="tab_text_hover" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic1b" name="tab_text_normal" path="/Images/preferences/" size="360,60"/>
+    <image id="ndic1j" name="main_volume_text" path="/Images/preferences/" size="249,27"/>
+    <image id="ndic1k" name="max_volume_icon" path="/Images/preferences/" size="18,18"/>
+    <image id="ndic1l" name="min_volume_icon" path="/Images/preferences/" size="14,16"/>
+    <image id="ndic1m" name="music_volume_text" path="/Images/preferences/" size="215,28"/>
+    <image id="ndic1n" name="sound_volume_text" path="/Images/preferences/" size="177,28"/>
+    <image id="ndic1o" name="horizontal_bar_active" path="/Images/slider/" size="540,3"/>
+    <image id="ndic1p" name="horizontal_bar_base" path="/Images/slider/" size="540,3"/>
+    <image id="ndic1q" name="horizontal_thumb_active" path="/Images/slider/" size="48,54"/>
+    <image id="ndic1r" name="horizontal_thumb_base" path="/Images/slider/" size="48,54"/>
+    <image id="ndicp" name="Character01" path="/Images/character/" size="505,941"/>
+    <image id="ndicq" name="confirm_background" path="/Images/background/" size="1092,282"/>
+    <image id="ndics" name="yes_button_down" path="/Images/confirm_button/" size="192,48"/>
+    <image id="ndict" name="yes_button_hover" path="/Images/confirm_button/" size="192,48"/>
+    <image id="ndicu" name="yes_button_normal" path="/Images/confirm_button/" size="192,48"/>
+    <image id="ndicw" name="no_button_down" path="/Images/confirm_button/" size="192,48"/>
+    <image id="ndicx" name="no_button_hover" path="/Images/confirm_button/" size="192,48"/>
+    <image id="ndicy" name="no_button_normal" path="/Images/confirm_button/" size="192,48"/>
+    <image id="u8sl3p" name="mute_main_label" path="/Images/preferences/" size="106,14"/>
+    <image id="u8sl3q" name="check_button_down" path="/Images/preferences/" size="42,48"/>
+    <image id="u8sl3r" name="check_button_hover" path="/Images/preferences/" size="42,48"/>
+    <image id="u8sl3s" name="check_button_normal" path="/Images/preferences/" size="42,48"/>
+    <image id="u8sl3t" name="mute_music_label" path="/Images/preferences/" size="87,14"/>
+    <image id="u8sl3u" name="mute_sound_label" path="/Images/preferences/" size="68,14"/>
+    <image id="u8sl3x" name="auto_text_speed_text" path="/Images/preferences/" size="272,27"/>
+    <image id="u8sl3y" name="fast_text_speed" path="/Images/preferences/" size="20,12"/>
+    <image id="u8sl3z" name="skip_off_text" path="/Images/preferences/" size="107,20"/>
+    <image id="u8sl40" name="skip_on_text" path="/Images/preferences/" size="97,20"/>
+    <image id="u8sl41" name="slow_text_speed" path="/Images/preferences/" size="11,14"/>
+    <image id="u8sl42" name="text_speed_text" path="/Images/preferences/" size="175,26"/>
+    <image id="u8sl43" name="unread_skip_text" path="/Images/preferences/" size="281,26"/>
+    <image id="u8sl45" name="full_screen_text" path="/Images/preferences/" size="146,20"/>
+    <image id="u8sl46" name="screen_size_text" path="/Images/preferences/" size="192,26"/>
+    <image id="u8sl47" name="windowed_text" path="/Images/preferences/" size="130,20"/>
+    <image id="uluf1" name="universal_background" path="/Images/background/" size="1920,1080"/>
+    <image id="uluf2" name="main_button_config_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf3" name="main_button_load_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf4" name="main_button_new_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf5" name="main_button_quit_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf6" name="main_button_gallery_normal" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf7" name="main_button_quit_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf8" name="main_button_config_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluf9" name="main_button_gallery_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufa" name="main_button_load_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufb" name="main_button_new_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufc" name="main_button_new_hover" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufe" name="main_button_config_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="uluff" name="main_button_gallery_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufg" name="main_button_load_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufh" name="main_button_quit_down" path="/Images/main_menu_button/" size="840,84"/>
+    <image id="ulufn" name="label_bg" path="/Images/background/" size="1920,72"/>
+    <component id="bmp53j" name="history" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="bmp53n" name="gallery" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="c7tw59" name="horizontal_scrollbar" path="/ScrollBars/" size="200,12" exported="true"/>
+    <component id="e28t2a" name="choice" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="e28t2m" name="say" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="ewvv2p" name="game_menu" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="ewvv3a" name="save" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="ewvv3b" name="load" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="g0f855" name="vertical_scrollbar" path="/ScrollBars/" size="12,200" exported="true"/>
+    <component id="ktou4l" name="music_room" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="ll1l29" name="Slider1" path="/Sliders/" size="50,10" exported="true"/>
+    <component id="ndic10" name="preferences" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="ndic1t" name="horizontal_slider" path="/Sliders/" size="540,3" exported="true"/>
+    <component id="ndicr" name="confirm" path="/Screens/" size="1920,1080" exported="true"/>
+    <component id="uluf0" name="main_menu" path="/Screens/" size="1920,1080" exported="true"/>
+    <atlas id="atlas0" size="1024,2048" file="atlas0.png"/>
+    <atlas id="atlas100" size="2048,2048" file="atlas0_1.png"/>
+    <atlas id="atlas101" size="2048,2048" file="atlas0_2.png"/>
+    <atlas id="atlas102" size="2048,2048" file="atlas0_3.png"/>
+  </resources>
+</packageDescription>u8sl3v.xml|694|<component size="42,48" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_u8sl" src="u8sl3s" name="n0" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n1_u8sl" src="u8sl3q" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2_u8sl" src="u8sl3r" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>uluf0.xml|1244|<component size="1920,1080">
+  <displayList>
+    <image id="n0_uluf" name="bg" src="uluf1" xy="0,0"/>
+    <image id="n7_uluf" name="label_bg" src="ulufn" xy="0,66"/>
+    <component id="n1_uluf" name="n1" src="ulufd" xy="1080,218" customData="Start()"/>
+    <component id="n2_uluf" name="n2" src="ulufi" xy="1080,357" customData="ShowMenu(&quot;load&quot;)"/>
+    <component id="n3_uluf" name="n3" src="ulufj" xy="1080,496" customData="ShowMenu(&quot;preferences&quot;)"/>
+    <component id="n4_uluf" name="n4" src="ulufk" xy="1080,635" customData="ShowMenu(&quot;gallery&quot;)"/>
+    <component id="n10_lg8i" name="n10" src="lg8i51" xy="1080,774" customData="ShowMenu(&quot;music_room&quot;)"/>
+    <component id="n5_uluf" name="n5" src="ulufl" xy="1080,913" customData="Quit(confirm=True)"/>
+    <text id="n6_uluf" name="n6" xy="123,1" size="727,179" filter="color" filterData="0,0,0,0" font="SourceHanSansLite" fontSize="140" color="#ffffff" vAlign="middle" leading="0" autoSize="none" italic="true" shadowColor="#9933cc" shadowOffset="3,3" text="Game Title"/>
+    <image id="n9_z1bv" name="n9" src="ndicp" xy="210,169" alpha="0.45" color="#000000"/>
+    <image id="n8_ndic" name="n8" src="ndicp" xy="190,171"/>
+  </displayList>
+</component>ulufd.xml|744|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="uluf4" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="ulufb" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="ulufc" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ulufi.xml|744|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="uluf3" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="ulufg" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="ulufa" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ulufj.xml|744|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="uluf2" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="ulufe" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="uluf8" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ulufk.xml|744|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="uluf6" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="uluff" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="uluf9" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ulufl.xml|744|<component size="840,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_uluf" name="n0" src="uluf5" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_uluf" name="n1" src="ulufh" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_uluf" name="n2" src="uluf7" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>
